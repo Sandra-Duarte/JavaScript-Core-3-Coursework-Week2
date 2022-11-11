@@ -17,7 +17,7 @@ Open index.html in your browser. Every time you refresh the page,
 a different greeting should be displayed in the box.
 */
 
-fetch("https://xkcd.now.sh/?comic=latest")
+fetch("https://codeyourfuture.herokuapp.com/api/greetings")
   .then(function (response) {
     return response.text();
   })
